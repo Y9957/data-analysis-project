@@ -66,3 +66,12 @@ RandomForest, GradientBoosting, XGBoost 모델에 대해
 ---
 
 ## 🗂 프로젝트 구조
+```fine_dust/
+├── data_preprocessing.py # Step 1 - 데이터 전처리
+├── modeling.py # Step 2 - 모델 학습 및 평가
+├── README.md # 프로젝트 설명 문서
+├── train_x.csv
+├── train_y.csv
+├── test_x.csv
+├── test_y.csv
+```
