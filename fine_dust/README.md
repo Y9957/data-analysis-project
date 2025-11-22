@@ -76,3 +76,29 @@ fine_dust/
 ├── test_x.csv
 ├── test_y.csv
 ```
+
+## 🚀 실행 방법
+
+### 1) 전처리 실행
+전처리 스크립트를 실행하면  
+`train_x.csv`, `train_y.csv`, `test_x.csv`, `test_y.csv` 파일이 자동 생성됩니다.
+
+```bash
+python data_preprocessing.py
+```
+### 2) 모델 학습 실행
+
+모델 학습 스크립트를 실행하면
+4개의 모델이 학습되고 .pkl 파일로 저장됩니다.
+
+linear_model.pkl
+
+RFR.pkl
+
+gbr_model.pkl
+
+xgbr_model.pkl
+
+```bash
+python modeling.py
+```
