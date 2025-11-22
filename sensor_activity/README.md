@@ -17,7 +17,8 @@
 ---
 
 ## 📂 프로젝트 구조
-```sensor_activity/
+```
+sensor_activity/
 ├── data_preprocessing.py # Step1 - 데이터 로딩, 전처리, EDA
 ├── modeling.py # Step2 - 모델 학습, 중요도 분석, 병합 저장
 ├── README.md # 프로젝트 설명 문서
