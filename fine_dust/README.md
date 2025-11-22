@@ -102,3 +102,11 @@ xgbr_model.pkl
 ```bash
 python modeling.py
 ```
+
+### 3) requirements 설치
+
+명령어로 필요한 패키지를 설치합니다.
+
+```bash
+pip install -r requirements.txt
+```
