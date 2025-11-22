@@ -70,6 +70,7 @@ pip install -r requirements.txt
 (sensor / agg / axis)
 
 🧠 수행 내용 요약
+
 ✔ Step 1: 데이터 EDA
 
 feature 그룹(sensors, agg, axis) 별 분포 확인
