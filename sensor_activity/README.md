@@ -64,10 +64,12 @@ pip install -r requirements.txt
 - 활동(Activity) 라벨 포함
 (LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS)
 
+
 📁 features.csv
 
 - 센서 변수의 계층 구조 포함
 (sensor / agg / axis)
+
 
 🧠 수행 내용 요약
 
@@ -91,6 +93,7 @@ Activity(6-class) → is_dynamic(2-class) 이진 분류 모델 생성
 
 두 중요도 결과를 feature.csv와 병합하여 pkl 저장
 
+
 📦 결과물
 
 | 파일명                           | 설명                                        |
@@ -99,6 +102,7 @@ Activity(6-class) → is_dynamic(2-class) 이진 분류 모델 생성
 | data_preprocessing.py         | 전처리 및 전체 EDA                              |
 | modeling.py                   | RandomForest 기반 모델 및 중요도 저장               |
 | requirements.txt              | 필요한 라이브러리 목록                              |
+
 
 ✨ 기술 스택
 
